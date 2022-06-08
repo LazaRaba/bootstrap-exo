@@ -1,0 +1,17 @@
+
+.text-box{
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 10%;
+    border: solid 2px yellow;
+}
+.warning{
+    background-color: rgb(255, 200, 127);
+}
+.info{
+    background-color: rgb(150, 105, 221);
+}
+.warning, .info{
+    @extend.text-box;
+}
+
