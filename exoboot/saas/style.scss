@@ -1,0 +1,15 @@
+//on peut importer des fichiers
+@import"./variables.scss";
+.super{
+    background-color: $fond;
+}
+// NESTING (Imbriqué)
+div{
+    background-color: royalblue;
+    p{
+        color: orange;
+    }
+    :hover{
+        background-color: green;
+    }
+}

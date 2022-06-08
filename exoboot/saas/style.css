@@ -1,0 +1,13 @@
+.super {
+  background-color: rgb(190, 225, 65);
+}
+
+div {
+  background-color: royalblue;
+}
+div p {
+  color: orange;
+}
+div :hover {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
